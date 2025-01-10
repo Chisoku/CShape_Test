@@ -22,7 +22,7 @@ namespace StudentManagementAPI.Services
         public void AddStudent(Student student)
         {
             student.Id = _students.Count > 0 ? _students.Max(s => s.Id) + 1 : 1;
-            _students.Add(new Student);
+            _students.Add(new Student());
         }
 
         public void UpdateStudent(int id, Student updatedStudent)

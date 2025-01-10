@@ -1,16 +1,6 @@
 [
   {
     "ContainingType": "StudentManagementAPI.Controllers.StudentsController",
-    "Method": "GetAllStudents",
-    "RelativePath": "api/Students",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "StudentManagementAPI.Controllers.StudentsController",
     "Method": "AddStudent",
     "RelativePath": "api/Students",
     "HttpMethod": "POST",
@@ -76,6 +66,16 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StudentManagementAPI.Controllers.StudentsController",
+    "Method": "GetAllStudents",
+    "RelativePath": "api/Students/ChiKun",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {

@@ -5,40 +5,11 @@
     "version": "1.0"
   },
   "paths": {
-    "/api/Students": {
+    "/api/Students/ChiKun": {
       "get": {
         "tags": [
           "Students"
         ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      },
-      "post": {
-        "tags": [
-          "Students"
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/Student"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/Student"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/Student"
-              }
-            }
-          }
-        },
         "responses": {
           "200": {
             "description": "OK"
@@ -123,6 +94,37 @@
             }
           }
         ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Students": {
+      "post": {
+        "tags": [
+          "Students"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Student"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Student"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Student"
+              }
+            }
+          }
+        },
         "responses": {
           "200": {
             "description": "OK"

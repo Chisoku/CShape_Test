@@ -15,7 +15,7 @@ namespace StudentManagementAPI.Controllers
             _studentService = studentService;
         }
 
-        [HttpGet]
+        [HttpGet("ChiKun")]
         public IActionResult GetAllStudents()
         {
             try

@@ -30,3 +30,4 @@ C:\Users\Chi\Desktop\StudentManagementAPI\obj\Debug\net8.0\refint\StudentManagem
 C:\Users\Chi\Desktop\StudentManagementAPI\obj\Debug\net8.0\StudentManagementAPI.pdb
 C:\Users\Chi\Desktop\StudentManagementAPI\obj\Debug\net8.0\StudentManagementAPI.genruntimeconfig.cache
 C:\Users\Chi\Desktop\StudentManagementAPI\obj\Debug\net8.0\ref\StudentManagementAPI.dll
+C:\Users\Chi\Desktop\StudentManagementAPI\obj\Debug\net8.0\StudentManagementAPI.sourcelink.json
